@@ -1,1 +1,7 @@
-console.log('Log from /server/main.js');
+import {Meteor} from 'meteor/meteor';
+import {Players} from './../imports/api/players'
+
+Meteor.startup(function() {
+
+
+});
